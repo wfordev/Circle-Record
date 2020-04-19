@@ -12,26 +12,43 @@ struct ContentView: View {
     @State private var selection = 0
  
     var body: some View {
-        TabView(selection: $selection){
-            Text("First View")
-                .font(.title)
+        TabView {
+            EventLogView()
                 .tabItem {
                     VStack {
-                        Image("first")
-                        Text("First")
+                        Image(systemName: "a")
+                        Text("イベント記録")
                     }
-                }
-                .tag(0)
-            Text("Second View")
-                .font(.title)
+            }.tag(0)
+            CashBookLog()
                 .tabItem {
                     VStack {
-                        Image("second")
-                        Text("Second")
+                        Image(systemName: "bold")
+                        Text("出納帳")
                     }
-                }
-                .tag(1)
+            }.tag(1)
         }
+//        TabView(selection: $selection){
+//            Text("First View")
+//                .font(.title)
+//                .tabItem {
+//                    VStack {
+//                        Image("first")
+//                        Text("Event log")
+//                    }
+//                }
+//                .tag(0)
+//            Text("Second View")
+//                .font(.title)
+//                .tabItem {
+//                    VStack {
+//                        Image("second")
+//                        Text("Cashbook")
+//                    }
+//                }
+//                .tag(1)
+//
+//        }
     }
 }
 

@@ -15,6 +15,8 @@
 		42C79CB5244B56000071D14B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42C79CB3244B56000071D14B /* LaunchScreen.storyboard */; };
 		42C79CC0244B56000071D14B /* Circle_RecordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C79CBF244B56000071D14B /* Circle_RecordTests.swift */; };
 		42C79CCB244B56000071D14B /* Circle_RecordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C79CCA244B56000071D14B /* Circle_RecordUITests.swift */; };
+		42C79CD9244C072F0071D14B /* EventLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C79CD8244C072F0071D14B /* EventLogView.swift */; };
+		42C79CDB244C07480071D14B /* CashBookLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C79CDA244C07480071D14B /* CashBookLog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		42C79CC6244B56000071D14B /* Circle RecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Circle RecordUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42C79CCA244B56000071D14B /* Circle_RecordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle_RecordUITests.swift; sourceTree = "<group>"; };
 		42C79CCC244B56000071D14B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42C79CD8244C072F0071D14B /* EventLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventLogView.swift; sourceTree = "<group>"; };
+		42C79CDA244C07480071D14B /* CashBookLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashBookLog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				42C79CA8244B55F70071D14B /* AppDelegate.swift */,
 				42C79CAA244B55F70071D14B /* SceneDelegate.swift */,
 				42C79CAC244B55F70071D14B /* ContentView.swift */,
+				42C79CD8244C072F0071D14B /* EventLogView.swift */,
+				42C79CDA244C07480071D14B /* CashBookLog.swift */,
 				42C79CAE244B55FF0071D14B /* Assets.xcassets */,
 				42C79CB3244B56000071D14B /* LaunchScreen.storyboard */,
 				42C79CB6244B56000071D14B /* Info.plist */,
@@ -267,7 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42C79CD9244C072F0071D14B /* EventLogView.swift in Sources */,
 				42C79CA9244B55F70071D14B /* AppDelegate.swift in Sources */,
+				42C79CDB244C07480071D14B /* CashBookLog.swift in Sources */,
 				42C79CAB244B55F70071D14B /* SceneDelegate.swift in Sources */,
 				42C79CAD244B55F70071D14B /* ContentView.swift in Sources */,
 			);
